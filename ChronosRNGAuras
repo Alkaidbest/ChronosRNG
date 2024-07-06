@@ -1,0 +1,365 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "[✨UPDATE!] Chrono's RNG [🍀5x Luck] | Jsx", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local AurasTab = Window:MakeTab({
+	Name = "Auras",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = AurasTab:AddSection({
+	Name = "Get Rare only Auras"
+})
+
+AurasTab:AddButton({
+	Name = "Honored One",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Honored One"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Immortal",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Immortal"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Glitch",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Glitch"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Azurewrath Lord",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Azurewrath Lord"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Chronomancer",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Chronomancer"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Chrononoctis",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Chrononoctis"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Celestial",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Celestial"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Fear",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Fear"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Chronos",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Chronos"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "ERR?R",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("ERR?R"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Death",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Death"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Adrenaline",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Adrenaline"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Galaxy",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Galaxy"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Galaxy: Vortex",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Galaxy: Vortex"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Rift",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Rift"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Rift : Galactic",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Rift : Galactic"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Crimson Scourge",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Crimson Scourge"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Stars Conjurer",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Stars Conjurer"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Thunder God",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Thunder God"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "TimeKeeper",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("TimeKeeper"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Corrupted: Wrath",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Corrupted: Wrath"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Lucky Radiance",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Lucky Radiance"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "LIMBO",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("LIMBO"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "NEREUS: CHAINED",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("NEREUS: CHAINED"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "JAZZ",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("JAZZ"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Overseer",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Overseer"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+AurasTab:AddButton({
+	Name = "Dark Presence",
+	Callback = function()
+      		local args = {
+    [1] = game:GetService("ReplicatedStorage").Animations.Animations:FindFirstChild("Dark Presence"),
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(unpack(args))
+
+  	end    
+})
+
+OrionLib:Init()
